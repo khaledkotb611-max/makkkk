@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="MAK supplies high-quality plumbing pipes, fittings, valves, and project materials across Egypt.">
+        <link rel="preload" href="images/hero.jpg" as="image">
+        <link href="style.css" rel="stylesheet">
+        <title>MAK Plumbing Solutions</title>
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Skip to content</a>
+
+        <header class="site-header">
+            <nav class="navbar" aria-label="Primary navigation">
+                <a class="brand" href="#home" aria-label="MAK home">
+                    <span class="brand-mark" aria-hidden="true">M</span>
+                    <span class="brand-text">
+                        <strong>MAK</strong>
+                        <small>Plumbing Solutions</small>
+                    </span>
+                </a>
+
+                <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="primary-menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="nav-panel" id="primary-menu">
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle theme">
+                            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M14 12a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                            </svg>
+                        </button>
+                        <a class="quote-link" href="#contact">Request a Quote</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main id="main">
+            <section id="home" class="hero" aria-labelledby="hero-title">
+                <div class="hero-content">
+                    <p class="eyebrow" data-animate="fade-down">MAK | Plumbing & Drainage Solutions</p>
+                    <h1 id="hero-title" data-animate="fade-up">Reliable plumbing materials for every project.</h1>
+                    <p data-animate="fade-up">High-quality pipes, fittings, valves, and drainage systems for residential, commercial, and industrial projects.</p>
+                    <div class="hero-actions" data-animate="fade-up">
+                        <a class="button button-primary" href="#services">Explore Products</a>
+                        <a class="button button-secondary" href="#contact">Request Quote</a>
+                    </div>
+                    <ul class="hero-highlights" aria-label="Company benefits">
+                        <li data-animate="fade-up">
+                            <strong>Fast</strong>
+                            <span>Local delivery</span>
+                        </li>
+                        <li data-animate="fade-up">
+                            <strong>Trusted</strong>
+                            <span>Quality materials</span>
+                        </li>
+                        <li data-animate="fade-up">
+                            <strong>Support</strong>
+                            <span>Project guidance</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="stats" aria-label="Company stats">
+                <div class="stat" data-animate="fade-up">
+                    <strong data-counter data-target="12" data-suffix="+">0</strong>
+                    <span>Years in business</span>
+                </div>
+                <div class="stat" data-animate="fade-up">
+                    <strong data-counter data-target="500" data-suffix="+">0</strong>
+                    <span>Projects completed</span>
+                </div>
+                <div class="stat" data-animate="fade-up">
+                    <strong data-counter data-target="24" data-suffix="/7">0</strong>
+                    <span>Customer support hours</span>
+                </div>
+                <div class="stat" data-animate="fade-up">
+                    <strong data-counter data-target="98" data-suffix="%">0</strong>
+                    <span>Customer satisfaction</span>
+                </div>
+            </section>
+
+            <section id="about" class="section about">
+                <figure class="section-media" data-animate="fade-right">
+                    <img src="images/about.jpg" alt="Quality plumbing materials" loading="lazy">
+                </figure>
+                <div class="section-content" data-animate="fade-left">
+                    <p class="section-kicker">About Us</p>
+                    <h2>Quality materials, fair pricing, reliable service.</h2>
+                    <p>MAK provides plumbing products designed for long-term performance. We help contractors, homeowners, and businesses choose the right materials for water networks, drainage systems, and maintenance projects.</p>
+                    <a class="text-link" href="#contact">Talk to our team</a>
+                </div>
+            </section>
+
+            <section id="services" class="section services">
+                <div class="section-heading" data-animate="fade-up">
+                    <p class="section-kicker">What We Offer</p>
+                    <h2>Core plumbing products for every project</h2>
+                    <p>Durable products selected carefully for everyday installation and high-demand projects.</p>
+                </div>
+
+                <div class="card-grid">
+                    <article class="product-card" data-animate="fade-up">
+                        <img src="images/pvc.jpg" alt="PVC Pipes" loading="lazy">
+                        <div class="card-body">
+                            <h3>PVC Pipes</h3>
+                            <p>Lightweight, corrosion-resistant pipes suitable for drainage and water systems.</p>
+                            <a href="#contact">Request PVC</a>
+                        </div>
+                    </article>
+                    <article class="product-card" data-animate="fade-up">
+                        <img src="images/ppr.jpg" alt="PPR Pipes" loading="lazy">
+                        <div class="card-body">
+                            <h3>PPR Pipes</h3>
+                            <p>Hot and cold water systems with excellent thermal performance and durability.</p>
+                            <a href="#contact">Request PPR</a>
+                        </div>
+                    </article>
+                    <article class="product-card" data-animate="fade-up">
+                        <img src="images/value.jpg" alt="Valves and Fittings" loading="lazy">
+                        <div class="card-body">
+                            <h3>Valves & Fittings</h3>
+                            <p>Reliable valves for controlling water lines in residential, commercial, and industrial settings.</p>
+                            <a href="#contact">Request Valves</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="projects" class="section projects">
+                <div class="section-heading" data-animate="fade-up">
+                    <p class="section-kicker">Our Work</p>
+                    <h2>Supply support for projects of all sizes.</h2>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project" data-animate="fade-up">
+                        <img src="images/hero.jpg" alt="Residential plumbing installation" loading="lazy">
+                        <h3>Residential Networks</h3>
+                    </article>
+                    <article class="project" data-animate="fade-up">
+                        <img src="images/ppr.jpg" alt="Commercial water systems" loading="lazy">
+                        <h3>Commercial Water Lines</h3>
+                    </article>
+                    <article class="project" data-animate="fade-up">
+                        <img src="images/pvc.jpg" alt="Drainage systems" loading="lazy">
+                        <h3>Drainage Systems</h3>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" class="section contact">
+                <div class="contact-details" data-animate="fade-right">
+                    <p class="section-kicker">Get in Touch</p>
+                    <h2>Need materials for your next project?</h2>
+                    <p>Send your requirements and the MAK team will help you choose the right products, quantities, and delivery option.</p>
+                    <address>
+                        <a href="tel:+201282708833">+20 128 270 8833</a>
+                        <a href="tel:+201212646466">+20 121 264 6466</a>
+                        <a href="mailto:khaledkotb611@icloud.com">khaledkotb611@icloud.com</a>
+                        <span>Itay City, Beheira, Egypt</span>
+                        <span>Sat - Thu | 9:00 AM - 4:00 PM</span>
+                    </address>
+                </div>
+
+                <form class="contact-form" data-animate="fade-left">
+                    <label>
+                        <span>Name</span>
+                        <input type="text" name="name" placeholder="Your name" autocomplete="name" required>
+                    </label>
+                    <label>
+                        <span>Email</span>
+                        <input type="email" name="email" placeholder="Email address" autocomplete="email" required>
+                    </label>
+                    <label>
+                        <span>Phone</span>
+                        <input type="tel" name="phone" placeholder="Phone number" autocomplete="tel">
+                    </label>
+                    <label>
+                        <span>Message</span>
+                        <textarea name="message" placeholder="Tell us what you need" required></textarea>
+                    </label>
+                    <button class="button button-primary" type="submit">Send Message</button>
+                    <p class="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div>
+                    <h2>MAK</h2>
+                    <p>Premium plumbing solutions for residential, commercial, and industrial projects.</p>
+                </div>
+                <div>
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div>
+                    <h3>Contact Us</h3>
+                    <a href="tel:+201282708833">+20 128 270 8833</a>
+                    <a href="tel:+201212646466">+20 121 264 6466</a>
+                    <a href="mailto:khaledkotb611@icloud.com">khaledkotb611@icloud.com</a>
+                    <p>Itay City, Beheira, Egypt</p>
+                </div>
+            </div>
+            <p class="copyright">&copy; <span id="year">2026</span> MAK Plumbing. All rights reserved.</p>
+        </footer>
+
+        <button class="to-top" type="button" aria-label="Back to top">
+            <span aria-hidden="true"></span>
+        </button>
+
+        <script src="script.js"></script>
+    </body>
+</html>
